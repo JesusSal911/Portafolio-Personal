@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 user-scalable=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css" />
+    <title>JS Desarrollador Web</title>
+  </head>
+
+  <body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+      <div class="contenido">
+        <header>
+          <div class="contenido-header">
+            <h1>/JS/</h1>
+            <nav id="nav" class="">
+              <ul id="links">
+                <li>
+                  <a
+                    href="#inicio"
+                    class="seleccionado"
+                    onclick="seleccionar(this)"
+                    >INICIO</a
+                  >
+                </li>
+                <li>
+                  <a href="#sobremi" onclick="seleccionar(this)">SOBRE Mí</a>
+                </li>
+                <li>
+                  <a href="#resumen" onclick="seleccionar(this)"
+                    >CERTIFICACIONES</a
+                  >
+                </li>
+                <li>
+                  <a href="#servicios" onclick="seleccionar(this)">INTERESES</a>
+                </li>
+                <li>
+                  <a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a>
+                </li>
+              </ul>
+            </nav>
+
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" onclick="responsiveMenu()">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="redes">
+              <a href="https://wa.me/+51953512111"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/jes%C3%BAs-salvador-16717434a/"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+              <a href="https://github.com/JesusSal911"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </header>
+        <div class="presentacion">
+          <p class="bienvenida">Bienvenidos</p>
+          <h2>Soy <span>Jesús Salvador</span>, Desarrollador Web</h2>
+          <p class="descripcion">
+            Practicante de la Carrera de Informática y Desarrollo de
+            Aplicaciones Web
+          </p>
+          <a href="#portfolio">Ir a Portafolio</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+      <div class="contenedor-foto">
+        <img src="img/foto.jpeg" alt="" />
+      </div>
+      <div class="sobremi">
+        <p class="titulo-seccion">Sobre Mí</p>
+        <h2>Hola, Soy <span>Jesús Alexander Salvador Avila</span></h2>
+        <h3>Desarrollador Web</h3>
+        <p>
+          Soy un estudiante de desarrollo web y mobile con habilidades
+          sobresalientes a la hora de trabajar en equipo y una una profunda
+          pasión por la informática. Me especializo en crear experiencias web
+          eficientes y optimizadas, aplicando principios de diseño responsive,
+          usabilidad y técnicas de SEO para mejorar la visibilidad y el
+          rendimiento de los sitios, especialmente en dispositivos móviles. Mi
+          enfoque está en garantizar una experiencia de usuario fluida y
+          accesible en todas las plataformas. Valoro la puntualidad, el
+          compromiso y la atención al detalle, cualidades que me permiten
+          adaptarme a cualquier proyecto y cumplir con las expectativas en
+          diseño, funcionalidad y optimización para móviles.
+        </p>
+        <a
+          href="archivos/cv Jesús Alexander Salvador Avila.pdf"
+          download="cv Jesús Alexander Salvador Avila"
+          >Descargar CV</a
+        >
+      </div>
+    </section>
+
+    <!-- SECCION RESUMEN -->
+    <section class="resumen" id="resumen">
+      <div class="contenido-seccion">
+        <h3>Mi preparación y experiencia</h3>
+        <div class="info">
+          <div class="col">
+            <span class="titulo">Certificaciones</span>
+            <table>
+              <tr>
+                <td class="datos">
+                  <h3>2023</h3>
+                </td>
+                <td rowspan="2" class="descripcion">
+                  En el primer semestre de 2023, tomé cursos de ciberseguridad,
+                  redes y Cisco en SENATI, adquiriendo habilidades clave en
+                  protección de datos y configuración de redes.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h4>Cursos de Cisco</h4>
+                  <p>Instituto SENATI</p>
+                  <span class="promedio">
+                    <a
+                      href="https://1drv.ms/f/c/9962e651cba64ccd/Ej1rtcRjoFBOvYWBzCCXvJIBSPa-6h_TsCjlKBftX7ZnuA?e=779Gh5"
+                      >Descargar</a
+                    ></span
+                  >
+                </td>
+              </tr>
+            </table>
+            <table>
+              <tr>
+                <td class="datos">
+                  <h3>2023 - 2024</h3>
+                </td>
+                <td rowspan="2" class="descripcion">
+                  En este periodo, realicé una actualización en Soporte Técnico
+                  Remoto de Computadoras, mejorando mis habilidades en
+                  diagnóstico y resolución de problemas a distancia.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h4>
+                    Actualizacion en Soporte Tecnico Remoto de Computadoras
+                  </h4>
+                  <p>Skill Cursos</p>
+                  <span class="promedio">
+                    <a
+                      href="https://drive.google.com/drive/folders/18G6Xzp9xABWG9EEDSRtWHtb9OcFNSxKX?usp=sharing "
+                      >Descargar</a
+                    ></span
+                  >
+                </td>
+              </tr>
+            </table>
+            <table>
+              <tr>
+                <td class="datos">
+                  <h3>2024 - 2025</h3>
+                </td>
+                <td rowspan="2" class="descripcion">
+                  Actualmente estoy tomando un curso de CSS de 70 horas, en el
+                  cual estoy fortaleciendo mis habilidades en diseño web y
+                  maquetación con CSS.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h4>Curso de CSS - 70 horas</h4>
+                  <p>Udemy Cursos</p>
+                  <span class="promedio"> <a href="">En Tramite</a></span>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="col">
+            <span class="titulo">Experiencia Laboral</span>
+            <table>
+              <tr>
+                <td class="datos">
+                  <h3>Front Developer</h3>
+                </td>
+                <td rowspan="2" class="descripcion">
+                  Desarrollé un sitio web desde cero utilizando HTML y CSS,
+                  aplicando técnicas avanzadas como Grid, Flexbox y la creación
+                  de iconos personalizados con CSS.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h4>SILVATEAM</h4>
+                  <p>2025</p>
+                </td>
+              </tr>
+            </table>
+            <table>
+              <tr>
+                <td class="datos">
+                  <h3>Backend Developer</h3>
+                </td>
+                <td rowspan="2" class="descripcion">
+                  Desarrollamos la base de datos con MySQL, implementamos
+                  relaciones con PHP y utilizamos criterios para la creación de
+                  la base de datos.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h4>SILVATEAM</h4>
+                  <p>2025</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+      <h3 class="titulo-seccion">MIS INTERESES</h3>
+      <div class="fila">
+        <div class="servicio">
+          <span class="icono"> <i class="fa-solid fa-code"></i></span>
+          <h4>Diseño de Sitios Web</h4>
+          <hr />
+
+          <p>
+            Estoy comprometido en perfeccionar mis habilidades en diseño web,
+            enfocándome en crear interfaces visualmente atractivas y
+            funcionales, siempre con el objetivo de mejorar la experiencia del
+            usuario.
+          </p>
+        </div>
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+          <h4>Programación PHP - JS</h4>
+          <hr />
+          <p>
+            Busco consolidar mis conocimientos en JavaScript para crear
+            animaciones interactivas en sitios web, así como desarrollar
+            formularios y plataformas de e-commerce utilizando PHP.
+          </p>
+        </div>
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+          <h4>Bases de Datos</h4>
+          <hr />
+          <p>
+            Mi objetivo es aprender a diseñar e integrar bases de datos en
+            aplicaciones web, permitiendo crear arquitecturas robustas y seguras
+            para gestionar información de manera eficiente.
+          </p>
+        </div>
+      </div>
+      <div class="fila">
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-database"></i></span>
+          <h4>Desarrollo de Aplicaciones Móviles</h4>
+          <hr />
+
+          <p>
+            Estoy enfocado en aprender a desarrollar aplicaciones móviles que se
+            integren con plataformas web, ofreciendo soluciones dinámicas y
+            accesibles para los usuarios.
+          </p>
+        </div>
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-palette"></i></span>
+          <h4>E-commerce y Soluciones Digitales</h4>
+          <hr />
+          <p>
+            Mi objetivo es adquirir conocimientos sobre la creación y gestión de
+            sitios de e-commerce, diseñando plataformas seguras y eficientes
+            para el comercio digital.
+          </p>
+        </div>
+        <div class="servicio">
+          <span class="icono"
+            ><i class="fa-solid fa-person-circle-question"></i
+          ></span>
+          <h4>Seguridad en Desarrollo Web y Aplicaciones</h4>
+          <hr />
+          <p>
+            Me interesa profundizar en la implementación de planes de seguridad
+            en el desarrollo de sitios web y aplicaciones, protegiendo la
+            información y generando un mejor entorno para el usuario.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+      <h3>HABILIDADES</h3>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>Html & Css</p>
+          <span class="porcentaje">70%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="html"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>Figma</p>
+          <span class="porcentaje">70%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="js"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>MySQL</p>
+          <span class="porcentaje">80%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="bd"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>FlexBox</p>
+          <span class="porcentaje">80%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="fb"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>CSS Grid</p>
+          <span class="porcentaje">70%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="cg"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>TeamViewer</p>
+          <span class="porcentaje">90%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="tv"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>VirtualBox</p>
+          <span class="porcentaje">90%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="vb"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>Javascript</p>
+          <span class="porcentaje">46%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="ps"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>Tailwind CSS</p>
+          <span class="porcentaje">70%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="bs"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>Boostrap</p>
+          <span class="porcentaje">90%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="tc"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+      <h3 class="titulo-seccion">Mis Proyectos</h3>
+      <div class="fila">
+        <div class="proyecto">
+          <a href="https://6789bcadb288457e7e455f3a--enel-peru.netlify.app/">
+            <div class="overlay"></div>
+            <img src="img/proyecto04.png" alt="" />
+            <div class="info">
+              <button class="button-info">
+                <a
+                  class="a-info"
+                  href="https://www.figma.com/design/IzgQPU4wL2jMSjetpzvz6v/Untitled?node-id=0-1&t=enKohLzVhwDXlKw1-1"
+                  >Prototipoo en Figma</a
+                >
+              </button>
+              <button class="button-lista">
+                <a
+                  class="a-two-info"
+                  href="https://6789bcadb288457e7e455f3a--enel-peru.netlify.app/"
+                  >Ver Sitio Web</a
+                >
+              </button>
+              <h4>Página web de Enel</h4>
+            </div>
+          </a>
+        </div>
+        <div class="proyecto">
+          <a href="https://tienda-muebles-peru01.web.app">
+            <div class="overlay"></div>
+            <img src="img/proyecto05.png" alt="" />
+            <div class="info">
+              <button class="button-info">
+                <a
+                  class="a-info"
+                  href="https://www.figma.com/design/80ppRq5cV065UW0ykG6LTw/Untitled?node-id=0-1&t=rlXtSuvjfKc9rC9m-1"
+                  >Prototipoo en Figma</a
+                >
+              </button>
+              <button class="button-lista">
+                <a
+                  class="a-two-info"
+                  href="https://tienda-muebles-peru01.web.app"
+                  >Ver Sitio Web</a
+                >
+              </button>
+              <h4>Página web de Tiendas de Muebles</h4>
+            </div>
+          </a>
+        </div>
+        <div class="proyecto">
+          <a href="https://furnitore-peru1-663b6.web.app">
+            <div class="overlay"></div>
+            <img src="img/proyecto03.png" alt="" />
+            <div class="info">
+              <button class="button-info">
+                <a
+                  class="a-info"
+                  href="https://www.figma.com/design/BaO3Wn2PMDTMKgZWeBCYxd/furniture-website-landing-page-(Community)?node-id=0-1&t=enKohLzVhwDXlKw1-1"
+                  >Prototipoo en Figma</a
+                >
+              </button>
+              <button class="button-lista">
+                <a
+                  class="a-two-info"
+                  href="https://furnitore-peru1-663b6.web.app"
+                  >Ver Sitio Web</a
+                >
+              </button>
+              <h4>Página web de Furnitore</h4>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="fila">
+        <div class="proyecto">
+          <a href="https://github.com/JesusSal911/AppMedia1">
+            <div class="overlay"></div>
+            <img src="img/proyecto01.png" alt="" />
+            <div class="info">
+              <button class="button-info">
+                <a
+                  class="a-info"
+                  href="https://www.figma.com/design/80ppRq5cV065UW0ykG6LTw/Untitled?node-id=0-1&t=rlXtSuvjfKc9rC9m-1"
+                  >Prototipoo en Figma</a
+                >
+              </button>
+              <button class="button-lista">
+                <a
+                  class="a-two-info"
+                  href="https://github.com/JesusSal911/AppMedia1"
+                  >Ver Sitio Web</a
+                >
+              </button>
+              <h4>Página web de AppMedia</h4>
+            </div>
+          </a>
+        </div>
+        <div class="proyecto">
+          <a href="https://heladeria-aldodiego.web.app">
+            <div class="overlay"></div>
+            <img src="img/proyecto06.png" alt="" />
+            <div class="info">
+              <button class="button-info">
+                <a
+                  class="a-info"
+                  href="https://www.figma.com/design/80ppRq5cV065UW0ykG6LTw/Untitled?node-id=0-1&t=rlXtSuvjfKc9rC9m-1"
+                  >Prototipoo en Figma</a
+                >
+              </button>
+              <button class="button-lista">
+                <a class="a-two-info" href="https://heladeria-aldodiego.web.app"
+                  >Ver Sitio Web</a
+                >
+              </button>
+              <h4>Página web de Heladeria AldoDiego</h4>
+            </div>
+          </a>
+        </div>
+        <div class="proyecto">
+          <a href="https://sedapal-d1e25.web.app">
+            <div class="overlay"></div>
+            <img src="img/proyecto07.png" alt="" />
+            <div class="info">
+              <button class="button-info">
+                <a
+                  class="a-info"
+                  href="https://www.figma.com/design/80ppRq5cV065UW0ykG6LTw/Untitled?node-id=0-1&t=rlXtSuvjfKc9rC9m-1"
+                  >Prototipoo en Figma</a
+                >
+              </button>
+              <button class="button-lista">
+                <a class="a-two-info" href="https://sedapal-d1e25.web.app "
+                  >Ver Sitio Web</a
+                >
+              </button>
+              <h4>Página Web de Sedapal</h4>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+      <h3 class="titulo-seccion-two">Contáctanos ahora</h3>
+      <div class="contenedor-form">
+        <form action="">
+          <div class="fila mitad">
+            <input
+              type="text"
+              placeholder="Nombre Completo *"
+              class="input-mitad"
+            />
+            <input
+              type="email"
+              placeholder="Dirección de Email"
+              class="input-mitad"
+            />
+          </div>
+          <div class="fila">
+            <input type="text" placeholder="Tema..." class="input-full" />
+          </div>
+          <div class="fila">
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Tu Mensaje..."
+              class="input-full"
+            ></textarea>
+          </div>
+
+          <input type="submit" value="Enviar Mensaje" class="btn-enviar" />
+        </form>
+      </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+      <p>
+        Todos los derechos reservados a Jesús Alexander Salvador Avila - 2025
+      </p>
+      <div class="redes">
+        <a href="https://wa.me/+51953512111"
+          ><i class="fa-brands fa-whatsapp"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/jes%C3%BAs-salvador-16717434a/"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+        <a href="https://github.com/JesusSal911"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
